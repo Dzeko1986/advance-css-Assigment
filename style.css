@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(232, 227, 243);
+}
+
+
+.prvi-link {
+    color: green;
+}
+
+.drugi-link {
+    color: green;
+}
+
+.treci-link {
+    color: red;
+}
+
+div [class*="wrap"] {
+    color: red;
+}
+
+
+ #boja::after {
+     content: "-New zute boje";
+ }
+
+ .zuta::after {
+     content: "-New zute boje";
+ }
+
+
+#some-id {
+    color: blue;
+}
+
+
+.italic:hover {
+    font-style: italic;
+    cursor:pointer;
+
+}
